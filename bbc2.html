@@ -1,0 +1,553 @@
+<html>
+    <head>
+        
+        <title>bbb-science</title>
+        
+        <style type="text/css">
+            #topbar{
+                
+                height: 40px;
+                width:1250px;
+                margin-left: auto;
+                margin-right: auto;
+         
+            }
+            
+            body{
+                
+                margin: 0px;
+                padding:0px;
+                font-family:Arial,Helvetica,sans-serif;
+            }
+            
+            .logo{
+                
+                max-height: 65%;
+                max-width: 65%; 
+                margin-top: 8px;
+                float: left;
+                margin-right: 20px;
+            }
+            
+            #topbar-section{
+                
+                float: left;
+                border-left: 1px grey solid;
+                height: 100%;
+                width: 170px;
+                border-right: 1px grey solid;
+            }
+            
+            #sign-in{
+                
+                float: left;
+                max-height: 55%;
+                max-width: 55%;
+                margin-top: 10px;
+                margin-left: 15px;
+                margin-right: 7px;
+            }
+            
+            #signin{
+                float: left;
+                margin:13px 0px 8px 0px; 
+                font-size:90%;
+                
+            }
+            
+            .text{
+                
+                float: left;
+                border-right: 1px grey solid;
+            }
+            
+            .text-styling{
+                
+                float: left;
+                margin:13px 20px 8px 20px; 
+                font-size: 90%;
+            }
+            
+             
+            
+            #down-arrow{
+                
+                float:left;
+                margin-top: 7px;
+            }
+            
+            #search{
+                
+                border: none;
+                float: left;
+                font-weight: bold;
+                font-size: 90%;
+                width: 100px;
+                padding: 2px;
+                margin: 8px 0px 8px 5px;
+                    
+            }
+            
+            #redbar{
+                
+                height: 58px;
+                background-color:BB1919;
+            }
+            
+            #news{
+                
+                float: left;
+                font-weight: 400;
+                color: #FFFFFF;
+                font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+                font-size: 43px;
+                margin: 5px 0px 0px 142.5px;
+                
+                           
+            }
+            
+            #redbar2{
+                
+                margin: 0px;
+                height: 37px;
+                background-color: BB1919;
+            }
+            
+            #home{
+                
+                float: left;
+                width: 58px;
+                margin: 6px 0px 0px 142.5px;
+                border-right: 1px #BB454F solid;
+                height: 50%;
+            }
+            
+            #home-styling{
+                
+                float: left;
+                color: white;
+                font-size: 90%;
+                margin: 2px 0px 20px 6px;
+         
+            }
+            
+              .menu{
+                
+                float: left;
+                margin: 6px 0px 0px 0px;
+                border-right: 1px #BB454F solid;
+                height: 50%;
+            }
+            
+            .menu-styling{
+                
+                float: left;
+                color: white;
+                font-size: 90%;
+                margin: 2px 10px 20px 10px;
+            }
+            
+            #dropdown{
+                
+                margin: -3px 0px 0px 0px;
+            }
+            
+            #heading{
+                 
+                font-size: 130%;
+                color: #404046;
+                margin: 10px 0px 0px 0px;
+                
+            }
+            
+            #head{
+                
+                width: 73px;
+                margin-left: 142.5px;
+                border-bottom: 3px #BB1919 solid;
+            }
+            
+            .headline{
+                
+                float: left;
+                width: 490px;
+                height: 603px;
+                margin: 15px 0px 0px 142.5px;
+            }
+            
+            #spacex{
+                
+                width: 490px;
+                height: 275px;
+            }
+            
+            #headline-link{
+                
+                font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+                font-stretch: 100%;
+                font-size: 30px;
+                font-weight: 700;
+                text-decoration: none;
+                color: #716C65;
+                
+            }
+            
+            #headline-link:hover{
+                
+                text-decoration: underline;
+                color: dodgerblue;
+            }
+            
+            .time{
+                
+                width: 34px;
+                height:25px;
+                position: relative;
+                top: 7px;
+            }
+            
+            .mini-link{
+                
+                text-decoration: none;
+                color: #716C65;
+                font-size: 80%;
+            }
+            
+            .mini-link:hover{
+                
+                 text-decoration: underline;
+                color: dodgerblue;
+            }
+            
+            .sub-headline{
+               
+                float: left;
+                width: 238px;
+                height: 603px;
+                margin:15px 0px 0px 18px;
+            }
+            
+            .greta{
+                
+                width: 238px;
+                height: 134px;
+            }
+            
+            .sublinks{
+                
+                font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+                font-stretch: 100%;
+                font-size: 16px;
+                font-weight: 700;
+                text-decoration: none;
+                color: #716C65;
+            }
+            
+            .sublinks:hover{
+                
+                text-decoration: underline;
+                color: dodgerblue;
+            }
+            
+              .menulinks{
+                
+                text-decoration: none;
+            }
+            
+            .menulinks:hover{
+                
+                text-decoration: underline;
+            }
+            
+         
+        </style>
+    
+    </head>
+   
+    <body>
+        
+        <div id="topbar">
+            
+            <img class="logo" src="bbclogo.png">
+            
+            <div id="topbar-section">
+                
+                <img id="sign-in" src="sign%20in.png">
+                <p id="signin"><b>Sign in</b></p>
+            
+            </div>
+            
+            <div class="text">
+                
+               <p class="text-styling"><b> Home</b></p>
+            
+            </div>
+            
+            <div class="text">
+                
+                 <p class="text-styling"><b> News</b></p>
+            
+            </div>
+            
+             <div class="text">
+                
+                 <p class="text-styling"><b> Sports</b></p>
+            
+            </div>
+            
+             <div class="text">
+                
+                 <p class="text-styling"><b> Reel</b></p>
+            
+            </div>
+            
+            <div class="text">
+                
+                 <p class="text-styling"><b> Worklife</b></p>
+            
+            </div>
+            
+            <div class="text">
+                
+                 <p class="text-styling"><b> Travel</b></p>
+            
+            </div>
+            
+            <div class="text">
+                
+                 <p class="text-styling"><b> Future</b></p>
+            
+            </div>
+            
+             <div class="text">
+                
+                 <p class="text-styling"><b> Culture</b></p>
+            
+            </div>
+            
+             <div class="text">
+                
+                 <p class="text-styling"><b> More</b></p>
+                 <img id="down-arrow" src="down%20srrow.PNG">
+            
+            </div>
+            
+             <div class="text">
+                 
+                <input type="text" value="Search" id="search">
+               
+                 <img id="magnifying-glass" src="search.PNG">
+                
+            </div>
+      
+        </div>
+        
+        <div id="redbar">
+            
+            <p id="news">NEWS</p>
+        
+        </div>
+        
+        <div id="redbar2">
+            
+            <div id="home">
+                
+             <a href="" class="menulinks"> <p id="home-styling"> Home</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">Video</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">World</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">Asia</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">UK</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">Business</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">Tech</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">Science</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">Stories</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">Entertainment & Arts</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"> <p class="menu-styling">Health</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">World TV News</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">In Pictures</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"> <p class="menu-styling">Reality Check</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">Newsbeat</p></a>
+            
+            </div>
+            
+            <div class="menu">
+                
+                <a href="" class="menulinks"><p class="menu-styling">More</p>
+                    <img id="dropdown" src="dropdown.PNG"></a>
+            
+            </div>
+        
+        </div>
+        
+        <div id="head">
+            <p id="heading">Science</p>
+        </div>  
+        
+        
+        <div class="headline">
+            
+           
+            
+            <a id="headline-link" href=""> <img id="spacex" src="spacex.jpg"><p>Elon Musk upbeat on Starship test flights</p>  </a>
+            
+            <p style="color:#716C65">The US enterpreneur says prototype of his Moon-Mars rocket systtem will begin in months.</p>
+            <img class="time" src="time.PNG">
+            <a class="mini-link" href="">Science & Environment</a>
+            
+            
+        </div>
+        
+        
+        <div class="sub-headline">
+            
+            <div>
+            
+            
+                <a href="" class="sublinks"><img src="greta.jpg" class="greta"><p>Greta Thunberg calls out the 'haters'</p></a>
+            
+                <p style="color:#716C65">It isn't only climate change Greta Thunberg is angry about.</p>
+                <img style="margin-top: 38px;" class="time" src="oneday.PNG">
+                <a style="margin-top: 38px;" class="mini-link" href="">Science & Environment</a>
+            
+            </div>
+            
+            <div style="margin-top: 9px;">
+                
+                 <a href="" class="sublinks"><img src="oil.jpg" class="greta"><p>Mysterious oil spill hits dozens of Brazil beaches</p></a>
+            
+                <p style="color:#716C65">At least six sea turtles have been found dead as officials investigate the source of the oil.</p>
+                <img class="time" src="2day.PNG">
+                <a class="mini-link" href="">Latin American & Carribean News</a>
+          
+            
+            </div>
+        
+        
+        </div>
+        
+        <div class="sub-headline">
+            
+            <div >
+            
+            
+                <a href="" class="sublinks"><img src="planet.jpg" class="greta"><p>Giant planet discovery bewilders astronomers</p></a>
+            
+                <p style="color:#716C65;">The Jupiter like world is unusually large compared with its host star challenging existing theories.</p>
+                <img class="time" src="2day.PNG">
+                <a class="mini-link" href="">Science & Environment</a>
+            
+            </div>
+            
+            <div style="margin-top: 10px;">
+                
+                 <a href="" class="sublinks"><img src="ship.jpg" class="greta"><p>Champagne smash for Attenborough polar ship</p></a>
+            
+                <p style="color:#716C65">The Duke Duchess of Cambridge celebrate the introdution of the UK's new polar research vessel. </p>
+                <img class="time" src="3day.PNG">
+                <a class="mini-link" href="">Science & Environment</a>
+          
+            
+            </div>
+          
+        </div> 
+        
+         <div class="sub-headline">
+            
+            <div >
+            
+            
+                <a href="" class="sublinks"><img src="trees.jpg" class="greta"><p>'Alarming' extinction threat to Europe's trees</p></a>
+            
+                <p style="color:#716C65;">Halt of tree species found on the European continent face extinction ,including the conker tree.</p>
+                <img class="time" src="2day.PNG">
+                <a class="mini-link" href="">Science & Environment</a>
+            
+            </div>
+            
+            <div style="margin-top: 10px;">
+                
+                 <a href="" class="sublinks"><img src="bones.jpg" class="greta"><p>'Lost' human bones 'as old as Cheddar Man'</p></a>
+            
+                <p style="color:#716C65">The reamins, initially thought to be Roman,were mislaid soon after being found in the 1960's.  </p>
+                <img class="time" src="2day.PNG">
+                <a class="mini-link" href="">Somerset</a>
+          
+            
+            </div>
+          
+        </div> 
+        
+    </body>
+
+
+</html>
